@@ -10,3 +10,6 @@ You can find a sample tokenlist supporting 3300 NFTs in [trimmed_3300_nfts.token
 ## How NFT tokenlist generation works? [WIP]
 - Use the [`.env`](./.env) file to specify the parameters.
 - Use the parameters to generate the NFT tokenlist (from cached data or opensea endpoint).
+
+## Further Work
+- Create an extension of [EIP747](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-747.md) to allow a Dapp to suggest a user subscribe to a token list.
