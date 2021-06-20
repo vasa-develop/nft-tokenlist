@@ -1,0 +1,28 @@
+{
+  "name": "nft-tokenlist",
+  "version": "0.0.0",
+  "description": "A tokenlist for ERC721, ERC1155",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasa-develop/nft-tokenlist.git"
+  },
+  "keywords": [
+    "tokenlist",
+    "nft",
+    "erc721",
+    "erc1155"
+  ],
+  "author": "vasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasa-develop/nft-tokenlist/issues"
+  },
+  "homepage": "https://github.com/vasa-develop/nft-tokenlist#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
