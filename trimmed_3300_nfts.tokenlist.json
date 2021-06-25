@@ -458,7 +458,7 @@
     {
       "name": "Urbit ID",
       "chainId": 1,
-      "address": "0x6ac07b7c4601b5ce11de8dfe6335b871c7c4dd4d",
+      "address": "0x9ef27de616154ff8b38893c59522b69c7ba8a81c",
       "standard": "erc721",
       "symbol": "AZP",
       "logoURI": "https://lh3.googleusercontent.com/sQNyTCyW4SZ9BNTSnB0FdLCQY4B38czEP65BoCbF_18oKydeuxcG3TdDW0aoWePvay29CRjxvqRVDk4ERGhLo1w1=s60"
@@ -3454,14 +3454,6 @@
       "standard": "",
       "symbol": null,
       "logoURI": "https://lh3.googleusercontent.com/Xov1yWUml-D3l02eQcGhiI-3mGYPWobfOYkT434fAcvmQE3JwuYN-uTSgf00P1clxoDR5fkBTacoq-fGJ-gEEI3d41KolopjZ4Pf9w=s120"
-    },
-    {
-      "name": "ProjectWITH",
-      "chainId": 1,
-      "address": "0x96ea1251452fa1f74c5b92ee29fce8f10a8a669e",
-      "standard": "erc721",
-      "symbol": "PWN",
-      "logoURI": "https://lh3.googleusercontent.com/UYkluhu-Y4jbaoYf8xHC5MtW2vBY8xZc7gTab8C3dtCZfWSiCpsCZs22kBRtieSu8lNwuJYb3yZZ0pvRM4nA7pVWNgKH8kh5xrAf=s120"
     },
     {
       "name": "Illuvium",
@@ -19520,14 +19512,6 @@
       "logoURI": "https://lh3.googleusercontent.com/HIhIZAIlLCzFRlpQcJC2XQTIY4ar0Ww1plop750-x7xxufUvn_rg9gTXHOmCIqUb11F5jBSul2fjM9RpdzyEd9Kv7IQvdxHUMaT2gSY=s120"
     },
     {
-      "name": "ProjectWITH EVENT",
-      "chainId": 1,
-      "address": "0xe53ac6a7fe5b25b434319eade8a03a304129beb9",
-      "standard": "erc721",
-      "symbol": "PWE",
-      "logoURI": "https://lh3.googleusercontent.com/UYkluhu-Y4jbaoYf8xHC5MtW2vBY8xZc7gTab8C3dtCZfWSiCpsCZs22kBRtieSu8lNwuJYb3yZZ0pvRM4nA7pVWNgKH8kh5xrAf=s120"
-    },
-    {
       "name": "Slime Happy farm",
       "chainId": 1,
       "address": "",
@@ -21222,14 +21206,6 @@
       "standard": "",
       "symbol": null,
       "logoURI": "https://lh3.googleusercontent.com/dvlgVIvL2CQtI-7GvNKczWANVOC8rDkDTgno9sdQCMWjlfOR0wNKuFBeH7sSmnkdTfwUk7P4zEx7Byuo2PcbMBJm99cH7a4qH8zN=s120"
-    },
-    {
-      "name": "KRAFTERSPACE",
-      "chainId": 1,
-      "address": "0x9faccd9f9661dddec3971c1ee146516127c34fc1",
-      "standard": "erc721",
-      "symbol": "KS",
-      "logoURI": "https://lh3.googleusercontent.com/lJg6pxGOWadD17oFh6CtKB2QpbkXmm9LQQ9AnFDijuuqncxqGhUUWEVS4qe9eGBKubaBm7MGIQ1xRt-A5G_A0MK4V7Y35xM945uK=s120"
     },
     {
       "name": "Last night somebody's words saved my life",
