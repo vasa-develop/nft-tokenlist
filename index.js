@@ -4,30 +4,30 @@ var tokens = []
 var numberOfRawDataFiles = 33
 
 for (let i = 0; i < numberOfRawDataFiles; i++) {
-    rawdata = fs.readFileSync('./cached/'+'raw'+i+'.json')
+    rawdata = fs.readFileSync('./cached/' + 'raw' + i + '.json')
     rawdata = JSON.parse(rawdata.toString())
-    var list = rawdata.data.collections.edges.map((edge) => { 
-    node = edge.node
-    return {
-        "name": node.name,
-        // "description": node.description,
-        // "owner": node.owner ? node.owner.address : null,
-        "chainId": node.assetContracts.edges.length > 0 
-            ? node.assetContracts.edges[0].node.blockExplorerLink.split('/')[2] == "polygonscan.com" ? 137 : 1
-            : 1,
-        "address": node.assetContracts.edges.length > 0 
-            ? node.assetContracts.edges[0].node.blockExplorerLink.split('/').pop()
-            : "",
-        "standard": node.assetContracts.edges.length > 0 
-            ? node.assetContracts.edges[0].node.tokenStandard.toLocaleLowerCase()
-            : "",
-        "symbol": node.assetContracts.edges.length > 0 
-            ? node.assetContracts.edges[0].node.symbol
-            : null,
-        // "assetCount": node.assetCount,
-        "logoURI": node.imageUrl,
-        // "tags": node.stringTraits
-    }
+    var list = rawdata.data.collections.edges.map((edge) => {
+        node = edge.node
+        return {
+            "name": node.name,
+            // "description": node.description,
+            // "owner": node.owner ? node.owner.address : null,
+            "chainId": node.assetContracts.edges.length > 0
+                ? node.assetContracts.edges[0].node.blockExplorerLink.split('/')[2] == "polygonscan.com" ? 137 : 1
+                : 1,
+            "address": node.assetContracts.edges.length > 0
+                ? node.assetContracts.edges[0].node.blockExplorerLink.split('/').pop()
+                : "",
+            "standard": node.assetContracts.edges.length > 0
+                ? node.assetContracts.edges[0].node.tokenStandard.toLocaleLowerCase()
+                : "",
+            "symbol": node.assetContracts.edges.length > 0
+                ? node.assetContracts.edges[0].node.symbol
+                : null,
+            // "assetCount": node.assetCount,
+            "logoURI": node.imageUrl,
+            // "tags": node.stringTraits
+        }
     })
     tokens = [...tokens, ...list]
 }
