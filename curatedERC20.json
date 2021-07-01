@@ -1,0 +1,161 @@
+{
+    "name": "Genie Default List",
+    "timestamp": "2021-06-30T18:13:06.621Z",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "tags": {},
+    "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+    "keywords": [
+        "genie",
+        "default"
+    ],
+    "tokens": [
+        {
+            "name": "Wrapped Ether",
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/rk4RKHOuW/eth.svg"
+        },
+        {
+            "name": "Dai Stablecoin",
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/mAZ_7LwOE/mutli-collateral-dai.svg"
+        },
+        {
+            "name": "USDCoin",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": 6,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/jkDf8sQbY/usdc.svg"
+        },
+        {
+            "name": "Tether USD",
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": 6,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/mgHqwlCLj/usdt.svg"
+        },
+        {
+            "name": "Maker",
+            "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "symbol": "MKR",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/sjHfS7jCS/mkrdao.svg"
+        },
+        {
+            "name": "Uniswap",
+            "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+            "symbol": "UNI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/1heSvUgtl/uniswap-v2.svg"
+        },
+        {
+            "name": "Curve DAO Token",
+            "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+            "symbol": "CRV",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/89clXLSu2/curve-dao-token.svg"
+        },
+        {
+            "name": "Wrapped BTC",
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/o3-8cvCHu/wbtc%5B1%5D.svg"
+        },
+        {
+            "name": "ChainLink Token",
+            "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+            "symbol": "LINK",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/9NOP9tOem/chainlink.svg?size=48x48"
+        },
+        {
+            "name": "Kyber Network Crystal",
+            "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+            "symbol": "KNC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/HkGb9qRdX/knc.svg?size=48x48"
+        },
+        {
+            "name": "Synthetix Network Token",
+            "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+            "symbol": "SNX",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/c2WntZSPs/snx-synthetix.png?size=144x144"
+        },
+        {
+            "name": "Compound",
+            "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+            "symbol": "COMP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/2es4I0GGs/compound-icon.svg?size=48x48"
+        },
+        {
+            "name": "Balancer",
+            "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+            "symbol": "BAL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://cdn.coinranking.com/NWynuvMaE/BAL.png?size=144x144"
+        },
+        {
+            "chainId": 1,
+            "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+            "name": "Aave",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "logoURI": "https://cdn.coinranking.com/4bpYKqV4X/AAVE.png?size=144x144"
+        },
+        {
+            "chainId": 1,
+            "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+            "name": "yearn finance",
+            "symbol": "YFI",
+            "decimals": 18,
+            "logoURI": "https://cdn.coinranking.com/bl3ndRz-F/yearn%5B1%5D.svg?size=96x96"
+        },
+        {
+            "chainId": 1,
+            "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+            "name": "renBTC",
+            "symbol": "RENBTC",
+            "decimals": 8,
+            "logoURI": "https://cdn.coinranking.com/dEAD5gHp1/renBTC.png?size=144x144"
+        },
+        {
+            "chainId": 1,
+            "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "logoURI": "https://cdn.coinranking.com/6SJHRfClq/busd.svg?size=144x144"
+        },
+        {
+            "chainId": 1,
+            "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+            "name": "Sushi",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "logoURI": "https://cdn.coinranking.com/eKKejWkdo/sushiswap.png?size=144x144"
+        }
+    ]
+}
